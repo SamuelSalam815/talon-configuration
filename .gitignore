@@ -1,1 +1,5 @@
+# Ignore community because it is an external repository
 community/
+
+# Ignore rango-talon because it is an external repository
+rango-talon/
