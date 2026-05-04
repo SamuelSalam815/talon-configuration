@@ -1,5 +1,10 @@
 # Ignore community because it is an external repository
 community/
+!community/settings/words_to_replace.csv
 
 # Ignore rango-talon because it is an external repository
 rango-talon/
+
+# Ignore cursorless directory because it is an external repository
+cursorless-talon/
+
