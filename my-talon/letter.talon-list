@@ -6,7 +6,7 @@ language: en
 arch: a
 bat: b
 cap: c
-drum: d
+dash: d
 eve: e
 face: f
 guest: g
@@ -17,15 +17,15 @@ kind: k
 look: l
 mate: m
 nice: n
-oz: o
+oat: o
 put: p
 quip: q
 red: r
 sun: s
 trap: t
-shoe: u
+chew: u
 vest: v
 wit: w
 axe: x
 yank: y
-zen: z
+zone: z
