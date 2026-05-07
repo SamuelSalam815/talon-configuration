@@ -4,7 +4,10 @@ tab last: key(ctrl-shift-tab)
 sup: key(up)
 doom: key(down)
 
-slap: key(enter)
+yes: key(enter)
+
+jump home: key(ctrl-home)
+jump end: key(ctrl-end)
 
 toy search: key(alt-space)
 win search: key(super-s)
