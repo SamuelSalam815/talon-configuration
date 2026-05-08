@@ -5,6 +5,7 @@ sup: key(up)
 doom: key(down)
 
 yes: key(enter)
+out: key(escape)
 
 jump home: key(ctrl-home)
 jump end: key(ctrl-end)
