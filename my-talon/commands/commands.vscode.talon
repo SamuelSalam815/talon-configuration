@@ -7,7 +7,19 @@ program settings: key(ctrl-,)
 find everywhere: key(f1)
 format [dock]: key(alt-shift-f)
 save [dock]: key(ctrl-s)
-fix: key(ctrl-.)
+method hint: key(ctrl-shift-space)
+open settings: key(ctrl-,)
+open cursorless settings:
+    key(ctrl-,)
+    insert("cursorless")
+
+pick recent: key(ctrl-r)
+pick file: key(ctrl-e)
+pick symbol: key(ctrl-t)
+
+configure keyboard:
+    key(ctrl-k)
+    key(ctrl-s)
 
 rename: key(f2)
 
