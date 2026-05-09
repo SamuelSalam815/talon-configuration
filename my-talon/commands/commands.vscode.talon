@@ -32,3 +32,9 @@ pop second: user.vscode("workbench.action.toggleAuxiliaryBar")
 pop zen: user.vscode("workbench.action.toggleZenMode")
 
 new file: user.vscode("zen.action.files.newUntitledFile")
+
+git stage: user.vscode("git.stageFile")
+git offstage: user.vscode("git.unstageFile")
+git commit: user.vscode("git.commit")
+git push: user.vscode("git.push")
+git reset all: user.vscode("git.clean")
