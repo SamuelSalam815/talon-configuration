@@ -12,6 +12,3 @@ jump end: key(ctrl-end)
 
 toy search: key(alt-space)
 win search: key(super-s)
-
-clear left: key(backspace)
-clear right: key(delete)
