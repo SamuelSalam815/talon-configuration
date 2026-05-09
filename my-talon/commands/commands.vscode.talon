@@ -31,6 +31,7 @@ pop git: user.vscode("workbench.view.scm")
 pop prime: user.vscode("workbench.action.toggleSidebarVisibility")
 pop second: user.vscode("workbench.action.toggleAuxiliaryBar")
 pop zen: user.vscode("workbench.action.toggleZenMode")
+pop panel: user.vscode("workbench.action.togglePanel")
 
 pop exclude:
     user.vscode("search.action.focusFilesToExclude")
@@ -44,3 +45,4 @@ git offstage: user.vscode("git.unstageFile")
 git commit: user.vscode("git.commit")
 git push: user.vscode("git.push")
 git reset all: user.vscode("git.clean")
+git input: user.vscode("workbench.scm.action.focusNextInput")
