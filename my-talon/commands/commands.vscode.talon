@@ -1,4 +1,4 @@
-app : code
+app: Code.exe
 
 -
 
@@ -15,15 +15,16 @@ open settings: user.vscode("workbench.action.openSettings")
 open cursorless settings:
     user.vscode("workbench.action.openSettings")
     insert("cursorless")
+open JSON settings: user.vscode(workbench.action.openSettingsJson)
 
 pick recent: user.vscode("workbench.action.openRecent")
 pick file: user.vscode("workbench.action.quickOpen")
 pick symbol: user.vscode("workbench.action.showAllSymbols")
+pick text: user.vscode("search.action.openNewEditor")
 
 rename: user.vscode("editor.action.rename")
 
 pop explorer: user.vscode("workbench.view.explorer")
-pop search: user.vscode("workbench.view.search")
 pop debug: user.vscode("workbench.view.debug")
 pop extensions: user.vscode("workbench.view.extensions")
 pop git: user.vscode("workbench.view.scm")
@@ -31,7 +32,12 @@ pop prime: user.vscode("workbench.action.toggleSidebarVisibility")
 pop second: user.vscode("workbench.action.toggleAuxiliaryBar")
 pop zen: user.vscode("workbench.action.toggleZenMode")
 
-new file: user.vscode("zen.action.files.newUntitledFile")
+pop exclude:
+    user.vscode("search.action.focusFilesToExclude")
+    key("tab")
+    key("enter")
+
+file new: user.vscode("zen.action.files.newUntitledFile")
 
 git stage: user.vscode("git.stageFile")
 git offstage: user.vscode("git.unstageFile")
