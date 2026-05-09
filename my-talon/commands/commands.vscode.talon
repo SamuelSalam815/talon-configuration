@@ -2,29 +2,33 @@ app : code
 
 -
 
-program settings: key(ctrl-,)
+find everywhere: user.vscode("workbench.action.showCommands")
+file format: user.vscode("editor.action.formatDocument")
 
-find everywhere: key(f1)
-format [dock]: key(alt-shift-f)
-save [dock]: key(ctrl-s)
-method hint: key(ctrl-shift-space)
-open settings: key(ctrl-,)
+param hint: user.vscode("editor.action.triggerParameterHints")
+
+open keyboard: user.vscode("workbench.action.openGlobalKeybindings")
+open keyboard keys:
+    user.vscode("workbench.action.openGlobalKeybindings")
+    user.vscode("keybindings.editor.recordSearchKeys")
+open settings: user.vscode("workbench.action.openSettings")
 open cursorless settings:
-    key(ctrl-,)
+    user.vscode("workbench.action.openSettings")
     insert("cursorless")
 
-pick recent: key(ctrl-r)
-pick file: key(ctrl-e)
-pick symbol: key(ctrl-t)
+pick recent: user.vscode("workbench.action.openRecent")
+pick file: user.vscode("workbench.action.quickOpen")
+pick symbol: user.vscode("workbench.action.showAllSymbols")
 
-configure keyboard:
-    key(ctrl-k)
-    key(ctrl-s)
+rename: user.vscode("editor.action.rename")
 
-rename: key(f2)
+toggle explorer: user.vscode("workbench.view.explorer")
+toggle search: user.vscode("workbench.view.search")
+toggle debug: user.vscode("workbench.view.debug")
+toggle extensions: user.vscode("workbench.view.extensions")
+toggle git: user.vscode("workbench.view.scm")
+toggle prime: user.vscode("workbench.action.toggleSidebarVisibility")
+toggle second: user.vscode("workbench.action.toggleAuxiliaryBar")
+toggle zen: user.vscode("workbench.action.toggleZenMode")
 
-trick explorer: key(ctrl-shift-e)
-trick search: key(ctrl-shift-f)
-trick debug: key(ctrl-shift-d)
-trick extensions: key(ctrl-shift-x)
-trick git: key(ctrl-shift-g)
+new file: user.vscode("zen.action.files.newUntitledFile")
