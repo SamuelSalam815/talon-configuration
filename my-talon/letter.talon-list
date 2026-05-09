@@ -1,9 +1,10 @@
 list: user.letter
 language: en
 -
+
 # for common alternative spoken forms for letters, visit
 # https://talon.wiki/Resource%20Hub/Speech%20Recognition/improving_recognition_accuracy#collected-alternatives-to-the-default-alphabet
-arch: a
+ant: a
 bat: b
 cap: c
 dash: d
@@ -15,7 +16,7 @@ ice: i
 just: j
 kit: k
 look: l
-mate: m
+met: m
 nice: n
 oat: o
 put: p
