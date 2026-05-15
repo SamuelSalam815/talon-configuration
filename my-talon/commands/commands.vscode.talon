@@ -3,6 +3,7 @@ app: Code.exe
 -
 
 snip snip: user.vscode("editor.action.showSnippets")
+fix: user.vscode("editor.action.quickFix")
 
 param hint: user.vscode("editor.action.triggerParameterHints")
 
