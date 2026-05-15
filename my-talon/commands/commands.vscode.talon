@@ -2,6 +2,11 @@ app: Code.exe
 
 -
 
+snip snip: user.vscode("editor.action.showSnippets")
+
+switch tab:
+    user.vscode("workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup")
+
 find everywhere: user.vscode("workbench.action.showCommands")
 file format: user.vscode("editor.action.formatDocument")
 
