@@ -28,7 +28,7 @@ open cursorless settings:
 open JSON settings: user.vscode(workbench.action.openSettingsJson)
 
 pick recent: user.vscode("workbench.action.openRecent")
-pick tab: user.vscode("workbench.action.quickOpen")
+pick buff: user.vscode("workbench.action.quickOpen")
 pick symbol: user.vscode("workbench.action.showAllSymbols")
 pick text: user.vscode("search.action.openNewEditor")
 
