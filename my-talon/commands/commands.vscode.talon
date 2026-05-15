@@ -4,13 +4,17 @@ app: Code.exe
 
 snip snip: user.vscode("editor.action.showSnippets")
 
+param hint: user.vscode("editor.action.triggerParameterHints")
+
+rename: user.vscode("editor.action.rename")
+
 switch tab:
     user.vscode("workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup")
 
 find everywhere: user.vscode("workbench.action.showCommands")
-file format: user.vscode("editor.action.formatDocument")
 
-param hint: user.vscode("editor.action.triggerParameterHints")
+file format: user.vscode("editor.action.formatDocument")
+file new: user.vscode("workbench.action.files.newUntitledFile")
 
 open keyboard: user.vscode("workbench.action.openGlobalKeybindings")
 open keyboard keys:
@@ -27,8 +31,6 @@ pick tab: user.vscode("workbench.action.quickOpen")
 pick symbol: user.vscode("workbench.action.showAllSymbols")
 pick text: user.vscode("search.action.openNewEditor")
 
-rename: user.vscode("editor.action.rename")
-
 pop explorer: user.vscode("workbench.view.explorer")
 pop debug: user.vscode("workbench.view.debug")
 pop extensions: user.vscode("workbench.view.extensions")
@@ -37,8 +39,6 @@ pop prime: user.vscode("workbench.action.toggleSidebarVisibility")
 pop second: user.vscode("workbench.action.toggleAuxiliaryBar")
 pop zen: user.vscode("workbench.action.toggleZenMode")
 pop panel: user.vscode("workbench.action.togglePanel")
-
-file new: user.vscode("workbench.action.files.newUntitledFile")
 
 git stage: user.vscode("git.stageFile")
 git offstage: user.vscode("git.unstageFile")
