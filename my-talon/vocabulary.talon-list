@@ -1,6 +1,5 @@
 list: user.vocabulary
 language: en
-
 -
 
 JSON
@@ -13,3 +12,4 @@ mocha
 rango
 jetbrains
 git
+mnemonic
