@@ -3,10 +3,17 @@ title: /Search:.*focus:\[.*\]/
 
 -
 
-pop cog:
+pop exclude:
     user.vscode("search.action.focusFilesToExclude")
     key("tab")
     key("enter")
+pop regex: user.vscode("toggleSearchEditorRegex")
+pop case: user.vscode("toggleSearchEditorCaseSensitive")
+pop whole word: user.vscode("toggleSearchEditorWholeWord")
+pop context: user.vscode("toggleSearchEditorContextLines")
+
+more context: user.vscode("increaseSearchEditorContextLines")
+less context: user.vscode("decreaseSearchEditorContextLines")
 
 focus search: user.vscode("search.action.focusQueryEditorWidget")
 focus include: user.vscode("search.action.focusFilesToInclude")
