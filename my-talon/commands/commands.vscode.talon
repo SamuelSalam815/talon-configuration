@@ -18,7 +18,7 @@ open cursorless settings:
 open JSON settings: user.vscode(workbench.action.openSettingsJson)
 
 pick recent: user.vscode("workbench.action.openRecent")
-pick file: user.vscode("workbench.action.quickOpen")
+pick tab: user.vscode("workbench.action.quickOpen")
 pick symbol: user.vscode("workbench.action.showAllSymbols")
 pick text: user.vscode("search.action.openNewEditor")
 
@@ -33,10 +33,15 @@ pop second: user.vscode("workbench.action.toggleAuxiliaryBar")
 pop zen: user.vscode("workbench.action.toggleZenMode")
 pop panel: user.vscode("workbench.action.togglePanel")
 
-pop exclude:
+pop search ignored files:
     user.vscode("search.action.focusFilesToExclude")
     key("tab")
     key("enter")
+pop search excluded: user.vscode("search.action.focusFilesToExclude")
+pop search included: user.vscode("search.action.focusFilesToInclude")
+
+search next: user.vscode("search.action.focusNextSearchResult")
+search last: user.vscode("search.action.focusPreviousSearchResult")
 
 file new: user.vscode("zen.action.files.newUntitledFile")
 
