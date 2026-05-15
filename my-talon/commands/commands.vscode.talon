@@ -33,17 +33,7 @@ pop second: user.vscode("workbench.action.toggleAuxiliaryBar")
 pop zen: user.vscode("workbench.action.toggleZenMode")
 pop panel: user.vscode("workbench.action.togglePanel")
 
-pop search ignored files:
-    user.vscode("search.action.focusFilesToExclude")
-    key("tab")
-    key("enter")
-pop search excluded: user.vscode("search.action.focusFilesToExclude")
-pop search included: user.vscode("search.action.focusFilesToInclude")
-
-search next: user.vscode("search.action.focusNextSearchResult")
-search last: user.vscode("search.action.focusPreviousSearchResult")
-
-file new: user.vscode("zen.action.files.newUntitledFile")
+file new: user.vscode("workbench.action.files.newUntitledFile")
 
 git stage: user.vscode("git.stageFile")
 git offstage: user.vscode("git.unstageFile")
