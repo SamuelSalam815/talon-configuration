@@ -2,6 +2,7 @@
 # But not the words_to_replace.csv because we may have modified them
 community/
 !community/settings/words_to_replace.csv
+!community/core/app_switcher/app_name_overrides.windows.csv
 
 # Ignore rango-talon because it is an external repository
 rango-talon/
