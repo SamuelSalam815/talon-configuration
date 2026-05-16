@@ -1,0 +1,18 @@
+list: user.system_paths
+hostname: desktop-violet
+-
+
+user: C:\Users\Sam
+desktop: C:\Users\Sam\Desktop
+desk: C:\Users\Sam\Desktop
+documents: C:\Users\Sam\Documents
+docks: C:\Users\Sam\Documents
+downloads: C:\Users\Sam\Downloads
+music: C:\Users\Sam\Music
+pictures: C:\Users\Sam\Pictures
+videos: C:\Users\Sam\Videos
+talon home: C:\Users\Sam\AppData\Roaming\talon
+talon recordings: C:\Users\Sam\AppData\Roaming\talon\recordings
+talon user: C:\Users\Sam\AppData\Roaming\talon\user
+profile: C:\Users\Sam
+repo: C:\Users\Sam\Repos
