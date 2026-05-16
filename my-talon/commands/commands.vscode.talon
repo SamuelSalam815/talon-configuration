@@ -2,50 +2,45 @@ app: Code.exe
 
 -
 
-param hint: user.vscode("editor.action.triggerParameterHints")
-
-rename: user.vscode("editor.action.rename")
-
-switch buff:
-    user.vscode("workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup")
-
-find everywhere: user.vscode("workbench.action.showCommands")
-
 file format: user.vscode("editor.action.formatDocument")
 file new: user.vscode("workbench.action.files.newUntitledFile")
 
-open keyboard: user.vscode("workbench.action.openGlobalKeybindings")
-open keyboard keys:
-    user.vscode("workbench.action.openGlobalKeybindings")
-    user.vscode("keybindings.editor.recordSearchKeys")
-open settings: user.vscode("workbench.action.openSettings")
-open cursorless settings:
+panel {user.cursorless_homophone}: user.private_cursorless_show_sidebar()
+
+param hint: user.vscode("editor.action.triggerParameterHints")
+
+ref next: user.vscode("references-view.next")
+ref previous: user.vscode("references-view.prev")
+
+rename: user.vscode("editor.action.rename")
+
+buff switch:
+    user.vscode("workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup")
+
+# pick commands
+buff pick: user.vscode("workbench.action.quickOpen")
+recent pick: user.vscode("workbench.action.openRecent")
+text pick: user.vscode("search.action.openEditor")
+symbol pick: user.vscode("workbench.action.showAllSymbols")
+
+# toggling commands
+debug pop: user.vscode("workbench.view.debug")
+explorer pop: user.vscode("workbench.view.explorer")
+extensions pop: user.vscode("workbench.view.extensions")
+git pop: user.vscode("workbench.view.scm")
+panel pop: user.vscode("workbench.action.togglePanel")
+prime pop: user.vscode("workbench.action.toggleSidebarVisibility")
+second pop: user.vscode("workbench.action.toggleAuxiliaryBar")
+zen pop: user.vscode("workbench.action.toggleZenMode")
+
+# opening commands
+base file open: user.vscode("merge.openBaseEditor")
+JSON settings open: user.vscode(workbench.action.openSettingsJson)
+keyboard open: user.vscode("workbench.action.openGlobalKeybindings")
+settings open: user.vscode("workbench.action.openSettings")
+cursorless settings open:
     user.vscode("workbench.action.openSettings")
     insert("cursorless")
-open JSON settings: user.vscode(workbench.action.openSettingsJson)
-
-pick recent: user.vscode("workbench.action.openRecent")
-pick buff: user.vscode("workbench.action.quickOpen")
-pick symbol: user.vscode("workbench.action.showAllSymbols")
-pick text: user.vscode("search.action.openEditor")
-
-pop explorer: user.vscode("workbench.view.explorer")
-pop debug: user.vscode("workbench.view.debug")
-pop extensions: user.vscode("workbench.view.extensions")
-pop git: user.vscode("workbench.view.scm")
-pop prime: user.vscode("workbench.action.toggleSidebarVisibility")
-pop second: user.vscode("workbench.action.toggleAuxiliaryBar")
-pop zen: user.vscode("workbench.action.toggleZenMode")
-pop panel: user.vscode("workbench.action.togglePanel")
-
-git stage: user.vscode("git.stageFile")
-git offstage: user.vscode("git.unstageFile")
-git commit: user.vscode("git.commit")
-git push: user.vscode("git.push")
-git reset all: user.vscode("git.clean")
-git input: user.vscode("workbench.scm.action.focusNextInput")
-
-next ref: user.vscode("references-view.next")
-previous ref: user.vscode("references-view.prev")
-
-panel {user.cursorless_homophone}: user.private_cursorless_show_sidebar()
+keyboard keys open:
+    user.vscode("workbench.action.openGlobalKeybindings")
+    user.vscode("keybindings.editor.recordSearchKeys")
