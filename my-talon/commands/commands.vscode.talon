@@ -2,14 +2,11 @@ app: Code.exe
 
 -
 
-snip snip: user.vscode("editor.action.showSnippets")
-fix: user.vscode("editor.action.quickFix")
-
 param hint: user.vscode("editor.action.triggerParameterHints")
 
 rename: user.vscode("editor.action.rename")
 
-switch tab:
+switch buff:
     user.vscode("workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup")
 
 find everywhere: user.vscode("workbench.action.showCommands")
@@ -30,7 +27,7 @@ open JSON settings: user.vscode(workbench.action.openSettingsJson)
 pick recent: user.vscode("workbench.action.openRecent")
 pick buff: user.vscode("workbench.action.quickOpen")
 pick symbol: user.vscode("workbench.action.showAllSymbols")
-pick text: user.vscode("search.action.openNewEditor")
+pick text: user.vscode("search.action.openEditor")
 
 pop explorer: user.vscode("workbench.view.explorer")
 pop debug: user.vscode("workbench.view.debug")
@@ -47,3 +44,8 @@ git commit: user.vscode("git.commit")
 git push: user.vscode("git.push")
 git reset all: user.vscode("git.clean")
 git input: user.vscode("workbench.scm.action.focusNextInput")
+
+next ref: user.vscode("references-view.next")
+previous ref: user.vscode("references-view.prev")
+
+panel {user.cursorless_homophone}: user.private_cursorless_show_sidebar()
