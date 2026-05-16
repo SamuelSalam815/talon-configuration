@@ -17,9 +17,9 @@ pop context: user.vscode("toggleSearchEditorContextLines")
 more context: user.vscode("increaseSearchEditorContextLines")
 less context: user.vscode("decreaseSearchEditorContextLines")
 
-focus search: user.vscode("search.action.focusQueryEditorWidget")
-focus include: user.vscode("search.action.focusFilesToInclude")
-focus exclude: user.vscode("search.action.focusFilesToExclude")
+search focus: user.vscode("search.action.focusQueryEditorWidget")
+include focus: user.vscode("search.action.focusFilesToInclude")
+exclude focus: user.vscode("search.action.focusFilesToExclude")
 
 next: user.vscode("search.action.focusNextSearchResult")
 previous: user.vscode("search.action.focusPreviousSearchResult")
