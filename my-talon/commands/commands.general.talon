@@ -12,3 +12,5 @@ jump end: key(ctrl-end)
 
 toy search: key(alt-space)
 win search: key(super-s)
+
+save: edit.save()
