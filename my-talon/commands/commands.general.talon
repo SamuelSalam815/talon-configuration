@@ -1,6 +1,3 @@
-tab next: key(ctrl-tab)
-tab last: key(ctrl-shift-tab)
-
 sup: key(up)
 doom: key(down)
 
