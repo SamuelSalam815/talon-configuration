@@ -1,0 +1,12 @@
+[submodule "community"]
+	path = community
+	url = ./community
+[submodule "rango-talon"]
+	path = rango-talon
+	url = ./rango-talon
+[submodule "cursorless-talon"]
+	path = cursorless-talon
+	url = ./cursorless-talon
+[submodule "talon_hud"]
+	path = talon_hud
+	url = ./talon_hud
