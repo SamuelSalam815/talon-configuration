@@ -23,3 +23,6 @@ show settings {user.cursorless_homophone}:
 show shortcuts record:
     user.vscode("workbench.action.openGlobalKeybindings")
     user.vscode("keybindings.editor.recordSearchKeys")
+
+# VSCode Snippets
+snip snip: user.vscode("editor.action.insertSnippet")
