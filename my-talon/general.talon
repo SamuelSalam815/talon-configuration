@@ -1,8 +1,9 @@
+# Single key alternatives
 sup: key(up)
-doom: key(down)
-
+dom: key(down)
 yes: key(enter)
 out: key(escape)
+ding: key(tab)
 
 jump head: key(ctrl-home)
 jump tail: key(ctrl-end)
