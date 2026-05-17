@@ -4,6 +4,6 @@ The code in his directory came from this [gist](https://gist.github.com/hanuele/
 
 ## Remaining Bugs
 
- At the time of writing the code had to be adjusted because formatters used a slightly different dictionary layout.
+At the time of writing the code had to be adjusted because formatters used a slightly different dictionary layout.
 
- It appears like there's still another bug remaining, where overrides are not respected when generating Anki cards.
+It appears like there's still another bug remaining, where overrides are not respected when generating Anki cards.
