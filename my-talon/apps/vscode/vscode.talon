@@ -12,6 +12,7 @@ file switch:
 # Language Features
 ref next: user.vscode("references-view.next")
 ref previous: user.vscode("references-view.prev")
+fix: key(ctrl-.)
 
 # Sidebar
 bar switch aux: user.vscode("workbench.action.toggleAuxiliaryBar")
