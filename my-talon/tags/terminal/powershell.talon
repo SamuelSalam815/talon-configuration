@@ -2,7 +2,16 @@ tag: terminal
 -
 
 get child item: insert("Get-ChildItem ")
+get child item recurse: insert("Get-ChildItem -Recurse -Filter ")
+
 select string: insert("Select-String ")
+
+for each object:
+    insert("% { ")
+    key($)
+    insert("_ } ")
+    key(left)
+    repeat(4)
 
 make die:
     insert("New-Item -ItemType Directory -Name \"")
