@@ -4,7 +4,7 @@ dom: key(down)
 yes: key(enter)
 out: key(escape)
 ding: key(tab)
-hic: key(shift-tab)
+sick: key(shift-tab)
 
 jump head: key(ctrl-home)
 jump tail: key(ctrl-end)
