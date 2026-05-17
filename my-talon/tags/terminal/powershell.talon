@@ -4,7 +4,7 @@ tag: terminal
 get child item: insert("Get-ChildItem ")
 select string: insert("Select-String ")
 
-make dir:
+make die:
     insert("New-Item -ItemType Directory -Name \"")
     insert(text or "")
     insert("\"")
